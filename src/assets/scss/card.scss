@@ -1,0 +1,54 @@
+
+
+#card {
+	border: 1px solid rgba(0,0,0,.3);
+	position: relative;
+	margin: 1rem auto;
+	border-radius: .4rem;
+	overflow: hidden;
+	@media (min-width: 768px){
+
+		height: 100%;
+		display:flex;
+		flex-flow: column nowrap;
+       }
+	
+
+
+	img {
+		width: 100%;
+		flex-grow: 2;
+
+
+		
+	}
+	figcaption {
+		padding:0 .2rem;
+		//border: 1px solid blue;
+		display: flex;
+		align-items: center;
+		li {
+			margin-right: .2rem;
+			color: green;
+			display: flex;
+			align-items: center;
+
+			&:not(:last-child)::after {
+				content: "\25CF";
+				vertical-align:middle;
+				margin-left: .2rem;
+				color: black;
+				font-size: .7rem;
+
+
+			}
+
+	
+		}
+
+
+	}
+
+	
+
+}

@@ -1,0 +1,24 @@
+
+
+
+#container {
+
+	//border: 1px solid red;
+	padding: .5rem .6rem;
+
+	.img-container {
+		//border: 1px solid green;
+		@media (min-width: 768px){
+			display: grid;
+			grid-template-columns: repeat(3,1fr);
+			justify-items: center;
+			align-items: center;
+			grid-gap: .5rem;
+
+
+
+		}
+	}
+
+
+}

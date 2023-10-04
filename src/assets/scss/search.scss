@@ -1,0 +1,26 @@
+
+
+#search {
+	//border: 1px solid red;
+	padding: .2rem;
+	margin: 1.2rem auto;
+	height: 40px;
+	form {
+		//border: 1px solid green;
+		height: 100%;
+
+		input[type="search"] {
+			height: 100%;
+			width: 80%;
+			display: block;
+			margin: 0 auto;
+			border-radius: .4rem;
+			border: 1.5px solid rgba(0,0,0.5);
+			font-size: 1.1rem;
+			padding: 2px;
+		}
+
+	}
+
+
+}

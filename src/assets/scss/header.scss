@@ -1,0 +1,35 @@
+
+
+
+
+#header {
+	display: flex;
+	min-width: 100vw;
+	padding:0 .5rem;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin-bottom: 1rem;
+
+
+	.user-profile {
+		font-size: 2rem;
+		.fa-user {
+			color: #000;
+			margin-right: 5px;
+		}
+		.username {
+			color: green;
+			margin-left: 5px;
+			font-size: 1rem;
+			
+		}
+	}
+
+	.logout {
+		color: red;
+		margin-left: auto;
+		border: none;
+		outline: none;
+		background: transparent;
+	}
+
+}	
